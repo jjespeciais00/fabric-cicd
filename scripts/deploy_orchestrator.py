@@ -92,7 +92,7 @@ def main():
     print("\n Executando Rebinding...")
     
     # Captura os IDs que o Fabric acabou de gerar em PROD
-    sm_id = prod_guids.get('NOME_DO_SEU_MODELO_SEMANTICO') # <- Coloque o nome real do modelo aqui
+    sm_id = prod_guids.get('sm_cicd') # <- Coloque o nome real do modelo aqui
     lh_gold_id = prod_guids.get('lh_gold')
     
     if sm_id and lh_gold_id:
