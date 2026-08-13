@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
+  "variables": [
+    {
+      "name": "Environment",
+      "note": "",
+      "type": "String",
+      "value": "dev"
+    },
+    {
+      "name": "SchemaName",
+      "note": "",
+      "type": "String",
+      "value": "dbo"
+    },
+    {
+      "name": "BronzePath",
+      "note": "",
+      "type": "ItemReference",
+      "value": {
+        "itemId": "6641d82b-f275-48bf-8d36-16624a17d289",
+        "workspaceId": "f377a0c8-2732-45d3-a54b-8e05507475c6"
+      }
+    },
+    {
+      "name": "GoldPath",
+      "note": "",
+      "type": "ItemReference",
+      "value": {
+        "itemId": "451f3923-e600-4a46-873f-418c46986ada",
+        "workspaceId": "f377a0c8-2732-45d3-a54b-8e05507475c6"
+      }
+    }
+  ]
+}
